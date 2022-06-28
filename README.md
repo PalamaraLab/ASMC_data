@@ -19,6 +19,8 @@ The `10-20-2000` uses a finer time discretization with steps of size 10.0 and 20
 
 Contains the CEU demographic model used to generate the discretizations and decoding quantities, along with all other demographic models that can be used to [prepare decoding quantities](https://github.com/PalamaraLab/PrepareDecoding) by using their corresponding three letter code.
 
+These demographies are haploid.
+
 These models were inferred using smc++ in the PyRho paper and corresponds to [these population sizes](https://github.com/popgenmethods/pyrho/blob/master/smcpp_popsizes_1kg.csv), but rescaled to assume mutation rate of 1.65e-8.
 
 
